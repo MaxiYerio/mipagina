@@ -23,9 +23,11 @@ nav {
     background-color: #ffffff; 
 }
 
+
 .logop {
-    width: 30%;
-    height: 120%;
+    width: auto;
+    height: auto;
+    max-width: 100%;
 }  
 
 nav .logo {
