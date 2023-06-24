@@ -298,9 +298,17 @@ div .resalto2 {
   .borde2 {
     display: none;
   }
+
+  .pc {
+    display: none;
+  }
 }
 
 @media (min-width: 700px) {
+
+  .cell {
+    display: none;
+  }
 
   .fondo {
     display: none;
