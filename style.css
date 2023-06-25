@@ -13,11 +13,10 @@ body {
 
 nav {
   position: fixed;
-  z-index: 1o;
+  z-index: 2;
   left: 0;
   right: 0;
   top: 0;
-  padding: 0 1px;
   height: 100px;
   background-color: #ffffff;
 }
@@ -31,13 +30,12 @@ nav {
 
 nav .logo {
   float: left;
-  width: 30%;
+  width: 20%;
   height: 100%;
   display: flex;
   align-items: center;
   font-size: 1em;
   font-family: "italics";
-  font-weight: bold;
   color: #000000;
 }
 
@@ -45,7 +43,7 @@ nav .list {
   font-family: 'Instrument Serif', serif;
   float: right;
   padding: 0;
-  margin: 0;
+  margin: 80;
   width: 70%;
   height: 100%;
   display: flex;
@@ -211,6 +209,22 @@ h3 {
   padding: 20vw;
 }
 
+.carrusel {
+  width: 40%;
+  margin: 0 30%;
+}
+
+.cartas {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 10px;
+  width: 350px;
+  height: 400px;
+}
 
 .parallax2 {
   background: url(./imagenes/bg2.webp);
@@ -247,12 +261,12 @@ h3 {
   right: -7px;
 }
 
-div .resalto {
+.resalto {
   margin: 15%;
   background-color: rgb(177, 177, 177);
 }
 
-div .resalto2 {
+.resalto2 {
   margin: 15%;
 }
 
@@ -278,7 +292,6 @@ div .resalto2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 45%;
 }
 
 .fondo {
@@ -287,6 +300,11 @@ div .resalto2 {
 }
 
 @media (max-width: 700px) {
+
+  .carrusel {
+    display: none;
+  }
+
   .parallax {
     display: none;
   }
