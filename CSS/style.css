@@ -228,7 +228,6 @@ h3 {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-
 }
 
 .card {
@@ -238,6 +237,11 @@ h3 {
   background-color: inherit;
   color: inherit;
   border: solid #999;
+  transition: transform 0.4s ease;
+}
+
+.card:hover {
+  transform: translateY(-30px);
 }
 
 .parallax2 {
